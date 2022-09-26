@@ -1,3 +1,5 @@
 # Scala
-Learn for scala
+
+newer learning with scala.
+
 scala version = 2.12.10
