@@ -5,6 +5,7 @@ import scala.util.control.Breaks
 /**
  * 目标：学会scala语法中的for循环基本写法
  */
+
 object ForLoop {
   def main(args: Array[String]): Unit = {
     // 1.基础写法
