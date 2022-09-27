@@ -100,5 +100,17 @@ object ForLoop {
         }
       }
     )
+
+    // 14.终止循环：使用try-catch语句
+    println("try-catch:")
+    try{
+      for (i <- -5 to 5) {
+        var res = 10 / i
+        println(res)
+      }
+    } catch {
+      case e: ArithmeticException => println(e)
+    }
+    println("this is outside of for-loop")
   }
 }
