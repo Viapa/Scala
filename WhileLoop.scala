@@ -9,7 +9,7 @@ object WhileLoop {
     // 1.while基础写法
     println("while:")
     var a = 10
-    while (a >=1 ){
+    while (a >=1){
       println("this is a while loop." + a)
       a -= 1
     }
