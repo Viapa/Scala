@@ -20,6 +20,5 @@ object Lambda {
 
     println("两数相加:", BinaryOperator(add))
     println("两数相减:", BinaryOperator(sub))
-
   }
 }
