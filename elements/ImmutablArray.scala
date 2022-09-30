@@ -45,5 +45,14 @@ object ImmutablArray {
     println()
     println("使用mkString,将元素连接成字符串,相当于join")
     println(arr2.mkString("*"))
+
+    // 6.不可变数组添加元素（在前，在后）
+    val newArr1 = arr :+ (25)
+    val newArr2 = (30) +: arr
+    val newArr3 = (100) +: (200) +: arr :+ (300) :+ (400)
+    println(arr.mkString("_"))
+    println(newArr1.mkString("_"))
+    println(newArr2.mkString("_"))
+    println(newArr3.mkString("_"))
   }
 }
