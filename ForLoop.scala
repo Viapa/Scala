@@ -99,5 +99,9 @@ object ForLoop {
         }
       }
     )
+
+    // 14.列表推导式
+    val res = for(i <- 0 to 100; if(i >= 50); if(i % 2 == 0)) yield i
+    println(res)
   }
 }
