@@ -5,7 +5,6 @@ import scala.util.control.Breaks
 /**
  * 目标：学会scala语法中的for循环基本写法
  */
-
 object ForLoop {
   def main(args: Array[String]): Unit = {
     // 1.基础写法
@@ -100,17 +99,5 @@ object ForLoop {
         }
       }
     )
-
-    // 14.终止循环：使用try-catch语句
-    println("try-catch:")
-    try{
-      for (i <- -5 to 5) {
-        var res = 10 / i
-        println(res)
-      }
-    } catch {
-      case e: ArithmeticException => println(e)
-    }
-    println("this is outside of for-loop")
   }
 }
